@@ -1,0 +1,68 @@
+@import url(https://fonts.googleapis.com/css?family=Work+Sans:300,600);
+
+body{
+	font-size: 20px;
+	font-family: 'Work Sans', sans-serif;
+	color: #333;
+  font-weight: 300;
+  text-align: center;
+  background-color: #000000;
+}
+
+p{
+  color:rgb(191, 11, 11);
+}
+.question{
+  position: relative;
+  bottom:60px;
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 10px;
+  color:rgb(226, 194, 194);
+  text-shadow: -1px 0 rgb(124, 57, 57), 0 1px rgb(141, 9, 9), 2px 0 rgb(214, 103, 6), 0 -1px black;
+}
+.answers {
+  margin-bottom: 20px;
+  text-align: left;
+  display: inline-block;
+  color:rgb(230, 219, 15);
+  text-shadow: -1px 0 rgb(124, 57, 57), 0 1px rgb(141, 9, 9), 2px 0 rgb(214, 103, 6), 0 -1px black;
+}
+.answers label{
+  display: block;
+  margin-bottom: 10px;
+}
+
+button{
+  font-family: 'Work Sans', sans-serif;
+	font-size: 22px;
+	background-color: rgb(63, 88, 210);
+	color: #fff;
+	border: 0px;
+	border-radius: 3px;
+	padding: 20px;
+	cursor: pointer;
+	margin-bottom: 20px;
+}
+button:hover{
+	background-color: rgb(184, 30, 150);
+}
+
+.slide{
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+.active-slide{
+  opacity: 1;
+  z-index: 2;
+}
+.quiz-container{
+  position: relative;
+  height: 200px;
+  margin-top: 40px;
+}

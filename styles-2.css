@@ -1,0 +1,74 @@
+body {
+    background: black;
+  }
+  
+  span {
+    color: yellow;
+    font-family: monospace;
+    font-size: 20px;
+    position: relative;
+    top:200px;
+  }
+  
+  .blinker {
+    position: relative;
+    top:400px;
+    opacity: 1;
+  
+    border-left: 7px solid yellow;
+    animation: blinker 0.9s steps(2, start) infinite;
+  }
+  
+  @keyframes blinker {
+    to { 
+      visibility: hidden; 
+    }
+  }
+  .xt{
+    width: 550px;
+    position: relative;
+    bottom:250px;
+    left:350px;
+    width: 800px;
+  }
+  .normal{
+    width: 550px;
+    position: relative;
+    top:50px;
+    left:350px;
+    width: 800px;
+  }
+  .spin {
+    position: fixed;
+    margin-top: 1px;
+    margin-left: 1px;
+    width: 650px;
+    position: relative;
+    bottom:0px;
+    right:380px;
+       animation-name: spinning;
+        animation-duration: 30s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+    }
+    @keyframes spinning {
+        from { transform: rotate(0deg) }
+        to { transform: rotate(360deg) }
+      }
+      button{
+        font-family: 'Work Sans', sans-serif;
+        font-size: 40px;
+        font-weight: bolder;
+        background-color: rgb(255, 255, 255);
+        border: 0px;
+        border-radius: 3px;
+        padding: 20px;
+        cursor: pointer;
+        margin-bottom: 20px;
+        position: relative;
+        bottom:350px;
+        right:135px
+      }
+      button:hover{
+        background-color: rgb(255, 0, 0);
+      }

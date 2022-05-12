@@ -1,0 +1,53 @@
+canvas{
+    background:rgb(0, 0, 0);
+    position:fixed;
+    left: 0;
+    top: 0;
+    z-index:-1;
+}
+
+h1{
+  color:rgb(16, 227, 227);
+  position: relative;
+  bottom:50px;
+  font-size:70px;
+  text-shadow: -1px 0 rgb(255, 0, 0), 0 3px rgb(255, 0, 0), 2px 0 rgb(255, 255, 255), 0 -1px black;
+
+}
+img{
+  width: 800px;
+  position: relative;
+  bottom:880px;
+  left:0px;
+
+}
+body{
+	font-size: 30px;
+  font-family: 'Abril Fatface', cursive;
+  font-weight:300px;
+  text-align: center;
+  position:relative;
+  top:200px;
+  background-color: rgb(0, 0, 0);
+}
+
+  button{
+    font-family: 'Abril Fatface', cursive;
+      font-size: 22px;
+      border: 0px;
+      border-radius: 300px;
+      padding: 20px;
+      cursor: pointer;
+      margin-bottom: 20px;
+      position:relative;
+      left: calc(50% - 750px);
+      top: calc(50vh - 180px);  
+  }
+  button:hover{
+      background-color: red;
+  }
+
+  .result{
+    font-size:50px;
+  }
+
